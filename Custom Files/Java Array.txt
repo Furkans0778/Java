@@ -9,6 +9,7 @@ public class listelerOrnek {
         int listeninUzunlugu = 10; //Zorunlu
         String[] yenidenBoyutlandirilamazListe = new String[listeninUzunlugu];// list length = 10 liste[?] = empy ? = > null
         yenidenBoyutlandirilamazListe[2] = "index3";
+      
         //[] sekilde atama yapilir !!
         System.out.println(yenidenBoyutlandirilamazListe[2]);
 
