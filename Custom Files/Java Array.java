@@ -7,7 +7,9 @@ public class listelerOrnek {
     public static void main(String[] args){
 
         int listeninUzunlugu = 10; //Zorunlu
-        String[] yenidenBoyutlandirilamazListe = new String[listeninUzunlugu];// list length = 10 liste[?] = empy ? = > null
+        String[] yenidenBoyutlandirilamazListe = new String[listeninUzunlugu];// liste uzunlugu 10 atama yoksa null 
+        int[] yeniListe = {1,2,3};   //=> oge sayisi liste uzunlugunu ayarlar
+       
         yenidenBoyutlandirilamazListe[2] = "index3";
       
         //[] sekilde atama yapilir !!
