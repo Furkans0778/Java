@@ -2,9 +2,7 @@
   Potrait-Land\app\src\main\AndroidManifest
 
  <activity android:name=".MainActivity"
-            android:screenOrientation="sensor"
-            >
-
+            android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
