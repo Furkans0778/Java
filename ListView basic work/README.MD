@@ -1,4 +1,4 @@
-listUI = findViewById(R.id.listeUI); //ListView
+	listUI = findViewById(R.id.listeUI); //ListView
 
         ArrayList<String> liste = new ArrayList();  //List
 
@@ -10,7 +10,7 @@ listUI = findViewById(R.id.listeUI); //ListView
         listeAdapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, liste);  //android.R
         listUI.setAdapter(listeAdapter);
 
-  listUI.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+  	listUI.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int index, long id) {
         	//liste.get(index)    
