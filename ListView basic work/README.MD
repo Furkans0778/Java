@@ -1,4 +1,4 @@
-listUI = findViewById(R.id.listeUI); //ListView
+	listUI = findViewById(R.id.listeUI); //ListView
 
         ArrayList<String> liste = new ArrayList();  //List
 
