@@ -12,7 +12,7 @@ public class data {
         edit.commit();
     }
 
-    public String veriAl(Context context, String key, String defaultValue) {
+    public String veriOku(Context context, String key, String defaultValue) {
         return context.getSharedPreferences(context.getPackageName(), Context.MODE_PRIVATE).getString(key, defaultValue);
     }
 
