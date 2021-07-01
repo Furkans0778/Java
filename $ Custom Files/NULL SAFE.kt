@@ -1,4 +1,5 @@
- var bir: String? = null  //if bir == null => null
+ //@#null chain
+var bir: String? = null  //if bir == null => null
  
         var iki: String? = null //if iki == null => null
         bir = null
